@@ -1,0 +1,13 @@
+{
+  "name": "facebookinstant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server --ssl -c-1 -p 8080 -a 127.0.0.1",
+    "open": "start https://www.facebook.com/embed/instantgames/1086278525394777/player?game_url=https://localhost:8080",
+    "start": "npm run server && npm run open"
+  },
+  "author": "",
+  "license": "ISC"
+}
